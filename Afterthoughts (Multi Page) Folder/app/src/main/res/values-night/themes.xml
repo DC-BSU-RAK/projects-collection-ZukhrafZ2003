@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Afterthoughts" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#e8d9b0</item>
+        <item name="colorPrimaryVariant">#c8b98a</item>
+        <item name="colorOnPrimary">#0d1a10</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">#0d1a10</item>
+        <item name="android:navigationBarColor">#0d1a10</item>
+    </style>
+</resources>

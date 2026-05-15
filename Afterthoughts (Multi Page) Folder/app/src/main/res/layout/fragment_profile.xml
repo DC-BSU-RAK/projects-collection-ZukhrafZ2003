@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="@color/cream"
+            android:textSize="22sp"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your journey so far"
+            android:textColor="@color/text_muted"
+            android:textSize="11sp"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/bg_card"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Your name"
+                android:textColor="@color/cream_mid"
+                android:textSize="13sp"
+                android:fontFamily="serif"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_display"
+                android:padding="8dp"
+                android:textColor="@color/cream"
+                android:textColorHint="@color/text_muted"
+                android:hint="enter your name"
+                android:textSize="12sp"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATS"
+            android:textColor="@color/text_muted"
+            android:textSize="9sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@color/bg_card"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginEnd="6dp">
+
+                <TextView
+                    android:id="@+id/tvTotalEntries"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/cream"
+                    android:textSize="28sp"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="entries"
+                    android:textColor="@color/text_muted"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@color/bg_card"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginEnd="6dp">
+
+                <TextView
+                    android:id="@+id/tvFavCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/cream"
+                    android:textSize="28sp"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="favourites"
+                    android:textColor="@color/text_muted"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@color/bg_card"
+                android:padding="12dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvTopMood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="—"
+                    android:textColor="@color/cream"
+                    android:textSize="28sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="top mood"
+                    android:textColor="@color/text_muted"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="save profile"
+            android:textColor="@color/cream"
+            android:backgroundTint="@color/bg_card"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY FAVOURITES"
+            android:textColor="@color/text_muted"
+            android:textSize="9sp"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/favsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+</ScrollView>

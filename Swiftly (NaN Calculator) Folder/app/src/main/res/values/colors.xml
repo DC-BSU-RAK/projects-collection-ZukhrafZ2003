@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0d0d1a</color>
+    <color name="bg_card">#12122a</color>
+    <color name="bg_display">#0a0a15</color>
+    <color name="purple_light">#c084fc</color>
+    <color name="purple_mid">#a78bda</color>
+    <color name="text_muted">#555577</color>
+    <color name="text_body">#8888aa</color>
+    <color name="pink_accent">#d4537e</color>
+    <color name="bg_modal">#0f0f28</color>
+</resources>

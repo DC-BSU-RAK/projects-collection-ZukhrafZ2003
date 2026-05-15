@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_modal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="#333355"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to use Swiftly"
+            android:textColor="@color/purple_light"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is not a number calculator. It is a feeling calculator. Tap up to 4 era symbols, then press Decode Era to receive your message from the universe."
+            android:textColor="@color/text_body"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.6"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Each Taylor Swift era carries an energy. Combine them to discover what the cosmos - and Taylor - want you to know."
+            android:textColor="@color/text_body"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.6"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Eras"
+            android:textColor="@color/purple_mid"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingMultiplier="1.8"
+            android:text="🤠 Debut - innocence and first loves\n✨ Fearless - golden hope and daydreams\n🎭 Speak Now - standing your ground\n🍂 Red - passion, loss, autumn feelings\n📷 1989 - reinvention and bright chapters\n🐍 Reputation - reclaiming your narrative\n🦋 Lover - joy, colour and vulnerability\n🌫️ Folklore - quiet introspection\n🍁 Evermore - grief, growth and wisdom\n🌙 Midnights - secrets and self-reflection\n🪶 TTPD - raw emotion and poetry\n🗝️ Vault - hidden truths unlocked"
+            android:textColor="@color/text_body"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCloseModal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="got it, now let me calculate"
+            android:textColor="@color/purple_light"
+            android:backgroundTint="#2a0a3a"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</ScrollView>

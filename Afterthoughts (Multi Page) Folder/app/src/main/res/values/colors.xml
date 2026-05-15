@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0d1a10</color>
+    <color name="bg_card">#111f13</color>
+    <color name="bg_display">#0a1509</color>
+    <color name="cream">#e8d9b0</color>
+    <color name="cream_mid">#c8b98a</color>
+    <color name="sage_text">#8aaa8c</color>
+    <color name="text_muted">#4a6a4c</color>
+    <color name="border">#1a2e1c</color>
+    <color name="bg_modal">#0a1509</color>
+</resources>

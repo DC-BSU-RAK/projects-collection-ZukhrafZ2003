@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <com.example.swiftly.StarfieldView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/splashTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swiftly"
+            android:textColor="@color/purple_light"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/splashTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a feeling calculator"
+            android:textColor="@color/purple_mid"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <com.example.afterthoughts.CandleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕯️"
+            android:textSize="52sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/splashTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afterthoughts"
+            android:textColor="@color/cream"
+            android:textSize="38sp"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:alpha="0"/>
+
+        <TextView
+            android:id="@+id/splashTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a place to reflect"
+            android:textColor="@color/sage_text"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:alpha="0"/>
+
+    </LinearLayout>
+
+</FrameLayout>
